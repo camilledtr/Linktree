@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(
+        rgba(2, 62, 138, 1) 0%,
+        rgba(0, 150, 199, 1) 50%,
+        rgba(72, 202, 228, 1) 100%
+    );
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+.profileImageDiv {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.profileImage {
+    border-radius: 40%;
+    max-width: 200px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    color: #FCF9F3;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    align-content: center;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    margin: 20px;
+    border: 1px white solid;
+    background-color: rgba(2, 62, 138, 1);
+    color: white;
+}
+
+a:hover {
+    box-shadow: 5px 5px 10px 2px rgba(2, 62, 70, 1);
+    transform: scale(1.03);
+}
